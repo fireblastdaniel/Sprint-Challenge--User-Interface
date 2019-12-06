@@ -79,7 +79,7 @@ nav{
     display:flex;
     justify-content:space-around;
     align-items:flex-end;
-    width:75%;
+    width: 100%
 }
 .nav-bar nav {
     display:flex;
