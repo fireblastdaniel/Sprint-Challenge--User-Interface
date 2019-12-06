@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight:600;
 }
 
 p {
@@ -69,6 +70,33 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav{
+    display: flex;
+}
+.nav-bar{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    width: 100%
+}
+.nav-bar nav {
+    display:flex;
+    justify-content:space-around;
+}
+nav a {
+    text-decoration:none;
+    color: black;
+    font-size:14px;
+    font-weight:600;
+}
+nav a:hover {
+    color:silver;
+    transition: 0.3s;
+}
+.middle-image{
+    margin:3% 0;
 }
 
 .top-content {
@@ -111,6 +139,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .box:first-child{
+    background-color:teal;
+}
+.middle-content .box:nth-child(2){
+    background-color:gold;
+}
+.middle-content .box:nth-child(3){
+    background-color:cadetblue;
+}
+.middle-content .box:nth-child(4){
+    background-color:coral;
+}
+.middle-content .box:nth-child(5){
+    background-color:crimson;
+}
+.middle-content .box:nth-child(6){
+    background-color:forestgreen;
+}
+.middle-content .box:nth-child(7){
+    background-color:darkorchid;
+}
+.middle-content .box:nth-child(8){
+    background-color:hotpink;
+}
+.middle-content .box:nth-child(9){
+    background-color:indigo;
+}
+.middle-content .box:nth-child(10){
+    background-color:dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +201,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About section styling */
+.text-container.about-page {
+    width:98%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+.middle-content-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.middle-content.about-page {
+    width: 47.5%;
+    padding-bottom:20px;
+}
+.middle-content.about-page img {
+    width:100%;
+}
+
+.middle-content.about-page h2{
+    padding: 3% 0;
+}
+.middle-content.about-page button {
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px 20px;
+    border:1px solid black;
+    font-weight:600;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.middle-content.about-page button:hover {
+    background-color: lightgrey;
+    transition: 0.4s;
+}
+.bottom-content.about-page {
+    margin: 0;
+}
+.bottom-content .text-container.about-page {
+    width:100%;
+    padding: 0 1% 5% 1%;
 }
