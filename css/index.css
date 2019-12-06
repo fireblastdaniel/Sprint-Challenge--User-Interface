@@ -91,6 +91,10 @@ nav a {
     font-size:14px;
     font-weight:600;
 }
+nav a:hover {
+    color:silver;
+    transition: 0.3s;
+}
 .middle-image{
     margin:3% 0;
 }
@@ -228,6 +232,11 @@ footer nav a {
     border:1px solid black;
     font-weight:600;
     margin-top: 5%;
+    cursor: pointer;
+}
+.middle-content.about-page button:hover {
+    background-color: lightgrey;
+    transition: 0.4s;
 }
 .bottom-content.about-page {
     margin: 0;
