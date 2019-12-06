@@ -32,19 +32,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-    Semantic HTML is what gives your webpage meaning. For example, tagging elements as <p> clearly indicates that you have a paragraph on your page, and <h1> indicates a title
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?  
+    Semantic HTML is what gives your webpage meaning. For example, tagging elements as ```<p>``` clearly indicates that you have a paragraph on your page, and ```<h1>``` indicates a title. Having a well-composed HTML page makes manipulated it with CSS and javascript much easier as you work
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```.  
     The main difference between block and inline elements is how they appear on the page. A block element will add a line break after the element, and will take up the entire line that it exists on. An inline element does not add a line break after the element, and will only take up the space that it needs. An inline element can be nested inside a block element, but a block element cannot be nested in an inline element.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model?  
     Margin > Border > Padding > Content
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?  
     The cross-axis (or the vertical axis)
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers.  
     Git allows teams of developers to all work on the same code simultaneously while automatically rejoining it later.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
