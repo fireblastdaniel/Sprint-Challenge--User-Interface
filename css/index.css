@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight:600;
 }
 
 p {
@@ -207,10 +208,21 @@ footer nav a {
 .middle-content-container {
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 .middle-content.about-page {
-    width: 46%;
-    padding: 0 1%;
+    width: 47.5%;
     padding-bottom:20px;
+}
+
+.middle-content.about-page h2{
+    padding: 3% 0;
+}
+.middle-content.about-page button {
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px 20px;
+    border:1px solid black;
+    font-weight:600;
+    margin-top: 5%;
 }
